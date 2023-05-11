@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: #384443;
+            padding: 12px 14px;
+            
+        
+        }
+        input, select,textarea{
+            width: 100%;
+            padding: 12px;
+        
+        }
+        label{
+            display: inline-block;
+            padding: 12px;
+            font-size: 25px;
+            font-weight: 900;
+            
+        }
+        h1,p{
+          text-align: center;
+          font-weight: bold;
+        }
+        h1{
+            font-family: sans-serif;
+            color: rgb(56, 6, 6);
+            text-shadow: 3px 3px 3px yellow;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+       <h1>Blogger Contact Form</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officiis maxime possimus.</p>
+       <div class="container">
+        <div class="row">
+            <div class="col-25">
+                <label>First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" placeholder="Your Name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label>Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label>Country</label>
+            </div>
+            <div class="col-75">
+              <select>
+                <option>India</option>
+                <option>Nepal</option>
+                <option>Australia</option>
+                <option>USA</option>
+              </select>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea placeholder="Some text here" height="200px"></textarea>
+                </div>
+                <div class="row">
+                    <input type="Submit">
+                </div>
+            </div>
+        </div>
+       </div>
+    
+</body>
+</html>

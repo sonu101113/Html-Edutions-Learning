@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Formate</title>
+    <style>
+   *{
+    box-sizing: border-box;
+   }
+   input, select, textarea{
+    width: 100%;
+    padding: 12px;
+   }
+   .container{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   label{
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      font-size: 18px;
+      font-family: 400;
+   }
+ input[type=Submit]{
+    background-color: #45aa6d;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 800;
+    color: #fff;
+ }
+ input[type=Submit]:hover{
+background-color: #45a049;
+ }
+ h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px ;
+    text-shadow:4px 4px 4px red ;
+    color:rgb(151, 151, 3);
+ }
+    </style>
+</head>
+<body>
+    <h2>Html Form</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea deleniti magni laudantium sed repellat, quae quia. Nisi accusamus iure at id, dolores quae earum obcaecati quas odit commodi itaque nam.</p>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="cols-25">
+                    <label>First Name</label>
+                </div>
+                <div class="cols-75">
+                    <input type="text" placeholder="Your Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cols-25">
+                    <label>Last Name</label>
+                </div>
+                <div class="cols-75">
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>  
+             <div class="row">
+                <div class="cols-25">
+                    <label>Country</label>
+                 </div>
+                <div class="cols-75">
+                 <select>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>Nepal</option>
+                    <option>Bhutan</option>
+                 </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cols-25">
+                    <label>Subject</label>
+                </div>
+                <div class="cols-75">
+                    <textarea placeholder="text here" height="200px"></textarea>
+                </div>
+                <div class="row">
+                <input type="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
